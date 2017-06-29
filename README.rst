@@ -2,20 +2,20 @@
 Draw Devops Against Humanity
 ============================
 
-Print a random sentence about development and operations. Inspired and using data from `Devops Against Humanity <https://github.com/bridgetkromhout/devops-against-humanity>
+Print a random sentence about development and operations. Inspired and using data from `Devops Against Humanity <https://github.com/bridgetkromhout/devops-against-humanity>`_
 
 This project was used to demonstrate configuration examples at EuroPython 2017.
 
 0.0.1
 
 
-## Installing
-=============
+Installing
+==========
 
 
 
-## Usage
-========
+Usage
+=====
 
 ::
 
@@ -24,29 +24,31 @@ This project was used to demonstrate configuration examples at EuroPython 2017.
 
 
 
-## Running the tests (dev)
-==========================
+Running the tests (dev)
+=======================
 
 To run all test and coding style tests use Makefile:
+
+::
 
     make tests
 
 
-## License
-==========
+License
+=======
 
 This project is licensed under the MIT License - see the LICENSE.txt file for details.
 
 
-## Contact
-==========
+Contact
+=======
 
 Magdalena Rother (rother.magdalena@gmail.com)
 
 
-## Acknowledgments
-==================
+Acknowledgments
+===============
 
-This project was inspired by `Bridget Kromhout <https://github.com/bridgetkromhout>` `Devops Against Humanity <https://github.com/bridgetkromhout/devops-against-humanity>`.
+This project was inspired by `Bridget Kromhout <https://github.com/bridgetkromhout>`_ `Devops Against Humanity <https://github.com/bridgetkromhout/devops-against-humanity>`_.
 
-`Kristian Rother <https://github.com/krother>` provided comments and code review.
+`Kristian Rother <https://github.com/krother>`_ provided comments and code review.
