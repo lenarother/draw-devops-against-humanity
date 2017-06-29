@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OSX
+.DS_Store
+
+# Testing / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+*.cover
+
+
+
+
