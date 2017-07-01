@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 import csv
+import runpy
 import sys
 from io import BytesIO, StringIO
 
-from draw.draw import clean_card, draw_cards, format_output, parse_data
+from draw.draw import (clean_card, draw_cards, format_output, parse_data,
+                       play_devops_agains_humanity)
 
 
 def test_clean_empty_card():
@@ -59,3 +61,17 @@ def test_format_output():
     white_cards = ['eggs', 'backon', 'bar']
     assert format_output(black_card, white_cards) == (
         'I use [eggs] after [backon], but only befor [bar].')
+
+
+def test_play_devops_agains_humanity(capsys):
+    play_devops_agains_humanity()
+    out, err = capsys.readouterr()
+    assert len(out) > 0
+    assert len(err) == 0
+
+
+def test_main(capsys):
+    runpy.run_module('draw.draw', run_name='__main__')
+    out, err = capsys.readouterr()
+    assert len(out) > 0
+    assert len(err) == 0
