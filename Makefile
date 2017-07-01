@@ -1,4 +1,4 @@
-.PHONY: tests coverage clean-build
+.PHONY: tests coverage devinstall
 
 help:
 	@echo "tests - run tests"
