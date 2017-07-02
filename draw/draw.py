@@ -47,8 +47,12 @@ def format_output(black_card, white_cards):
 
 
 def play_devops_agains_humanity():
-    with open(DATA_PATH) as csvfile:
-        black_cards, white_cards = parse_data(csvfile)
+    try:
+        csvfile = open(DATA_PATH, encoding="utf-8")
+    except TypeError:
+        csvfile = open(DATA_PATH)
+
+    black_cards, white_cards = parse_data(csvfile)
     random_black_card, random_white_cards = draw_cards(black_cards, white_cards)
     result = format_output(random_black_card, random_white_cards)
     print(result)
