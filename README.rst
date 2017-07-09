@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lenarother/draw-devops-against-humanity.svg?branch=master)](https://travis-ci.org/lenarother/draw-devops-against-humanity)
+
 ============================
 Draw Devops Against Humanity
 ============================
