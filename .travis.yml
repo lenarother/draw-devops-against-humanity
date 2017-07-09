@@ -1,0 +1,22 @@
+sudo: false
+language: python
+
+python:
+  - '2.7'
+  - '3.4'
+  - '3.5'
+
+install:
+  - pip install tox
+
+script:
+  - tox -e "$TRAVIS_PYTHON_VERSION"
+
+after_success:
+  - pip install "coveralls" coverage
+  - coverage report
+  - coveralls
+
+notifications:
+  email:
+    - rother.magdalena@gmail.com
