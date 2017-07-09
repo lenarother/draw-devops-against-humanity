@@ -7,7 +7,8 @@ import re
 from itertools import islice
 
 
-DATA_PATH = os.path.split(__file__)[0] + '/../data/devops_against_humanity.csv'
+CODE_DIR = os.path.split(__file__)[0]
+DATA_PATH =  os.path.join(CODE_DIR, '..', 'data', 'devops_against_humanity.csv')
 
 
 def clean_card(card):
