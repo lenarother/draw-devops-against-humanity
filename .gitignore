@@ -1,4 +1,8 @@
-# https://github.com/github/gitignore
+# from: https://github.com/github/gitignore
+# 
+# for excluding operating system or editor specific files use:
+# git config --global core.excludesfile '~/.gitignore'
+# and https://github.com/github/gitignore/tree/master/Global
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -9,9 +13,6 @@ build/
 dist/
 *.egg-info/
 *.egg
-
-# OSX
-.DS_Store
 
 # Testing / coverage reports
 htmlcov/
