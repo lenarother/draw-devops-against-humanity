@@ -11,7 +11,6 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-install_requires = []
 test_requires = [
     'py>=1.4.26',
     'pyflakes==1.1.0',
@@ -48,7 +47,6 @@ setup(
     extras_require={
         'tests': test_requires,
     },
-    install_requires=install_requires,
     tests_require=test_requires,
     classifiers=[
         'Development Status :: 3 - Alpha',
