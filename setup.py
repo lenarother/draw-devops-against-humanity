@@ -27,7 +27,7 @@ test_requires = [
 ]
 
 setup(
-    name='draw',
+    name='draw-devops-against-humanity',
     version=version,
     description='Draw devops against humanity sentence.',
     long_description=long_description,
@@ -50,9 +50,7 @@ setup(
     tests_require=test_requires,
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Environment :: Command Line',
         'Intended Audience :: Developers',
-        'Topic :: DevOps',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
