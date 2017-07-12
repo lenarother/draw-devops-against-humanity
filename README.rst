@@ -16,25 +16,31 @@ This project was used to demonstrate configuration examples at EuroPython 2017.
 Installing
 ==========
 
-
+pip install draw-devops-against-humanity
 
 Usage
 =====
 
 ::
 
-    $ python draw.py
+    $ draw
     Security through [Catastrophic Failure as a Service].
 
+You can also make it your terminal default gritting. Make sure you have `fortune <https://en.wikipedia.org/wiki/Fortune_(Unix)>`_ installed and insert in your .bashrc or .bash_login:
+
+::
+
+    fortune | draw
 
 
 Running the tests (dev)
 =======================
 
-To run all test and coding style tests use Makefile:
+To run all test and coding style tests use Makefile to install test requiremets and run the tests:
 
 ::
 
+    make devinstall
     make tests
 
 
