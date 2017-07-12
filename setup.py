@@ -39,10 +39,6 @@ setup(
     packages=find_packages(exclude=[
         'tests*'
     ]),
-    package_data={'': ['LICENSE.txt', 'README.rst'],
-                  'data': ['devops_against_humanity.csv']},
-    data_files=[('.', ['LICENSE.txt', 'README.rst']),
-                ('data', ['data/devops_against_humanity.csv'])],
     include_package_data=True,
     extras_require={
         'tests': test_requires,
