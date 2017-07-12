@@ -39,6 +39,12 @@ setup(
     packages=find_packages(exclude=[
         'tests*'
     ]),
+    package_data={
+        'data': [
+            'devops_against_humanity.csv',
+            'LICENSE.txt'
+        ],
+    },
     include_package_data=True,
     extras_require={
         'tests': test_requires,
