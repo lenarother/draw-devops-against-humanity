@@ -10,7 +10,7 @@ Print a random sentence about development and operations. Inspired and using dat
 
 This project was used to demonstrate configuration examples at EuroPython 2017.
 
-0.0.1
+0.0.2
 
 
 Installing
