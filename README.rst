@@ -26,7 +26,7 @@ Usage
     $ draw
     Security through [Catastrophic Failure as a Service].
 
-You can also make it your terminal default gritting. Make sure you have `fortune <https://en.wikipedia.org/wiki/Fortune_(Unix)>`_ installed and insert in your .bashrc or .bash_login:
+You can also add in your terminal as a default greeting. Make sure you have `fortune <https://en.wikipedia.org/wiki/Fortune_(Unix)>`_ installed and insert in your .bashrc or .bash_login:
 
 ::
 
